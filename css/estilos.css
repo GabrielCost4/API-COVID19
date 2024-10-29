@@ -1,0 +1,294 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0f0828;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #cec7b6;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1500px;
+    /* margin: 20px auto; */
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 200px;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #0f0828;
+    color: white;
+    text-align: center;
+    margin-top: 126px;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    margin-bottom: 20px;
+    height: 120px;
+}
+
+#regions_div {
+    width: 900px;
+    height: 500px
+}
+
+.membro1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.membro2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.membro3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.membro1 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.membro2 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.membro3 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.container-two {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+#corona {
+    margin-top: 40px;
+    display: flex;
+    margin-right: 120px;
+}
+
+#corona img {
+    margin-left: 120px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-right: 300px;
+
+}
+
+section img {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li {
+    display: flexbox;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 500px;
+}
+
+#corona h1 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#curiosidades {
+    display: flex;
+    flex-direction: column;
+}
+
+#curiosidades p {
+    display: flex;
+    flex-direction: column;
+}
+
+#curiosidades img {
+    width: 350px;
+    height: 250px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #181619;
+}
+
+.descricao,
+.mapa,
+.grafico-pizza,
+.tabela-brasil {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos gerais para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+p {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+    font-size: 20px;
+    max-width: 100vw;
+    margin: 0;
+
+}
+
+header {
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    margin: 0px auto 15px auto;
+}
+
+.container {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.ocultar {
+    display: none;
+}
+
+#noticias {
+    margin-right: 55px;
+}
+
+#curiosidades p {
+    margin-right: 55px;
+}
+
+#container p {
+    font-size: 10px;
+}
+
+footer {
+    margin-top: 70px;
+}
+
+
